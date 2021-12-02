@@ -98,7 +98,7 @@ function html5_canvas() {
 
     $canvas.addChild($triangle);
 
-    $angle = 0, $centerY = 200, $range = 10, $speed = 0.5;
+    $angle = 0, $centerY = 200, $range = 10, $speed = 3;
 
     // create the event listener
     $canvas.addListener(doodle.events.Event.ENTER_FRAME, onEnterFrame);
